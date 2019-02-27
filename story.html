@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html id="gameht">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+   <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900' rel='stylesheet' type='text/css' />
+   <link href="css/style1.css" rel="stylesheet" type="text/css" />
+   <!--[if IE 9]>
+        <link href="css/ie9.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+   <link rel="shortcut icon" href=" pic/logo.ico" />
+   <title>NISI</title>
+</head>
+
+<body id="game" class="style-5 style-7 game">
+     <div id="loader-wrapper">
+        <img src="pic/plane.svg" class="loadpic">
+        <div class="loadtv">
+            <img src="pic/loadback.svg">
+</div>
+        </div>
+   <header>  
+     <div class="content-push">
+      <div class="row">
+         <div class="col-md-12 col-xs-12 ">
+          <div class="menulogo">
+    <a href="index.html">
+<img src="pic/menulogo.png">
+<img src="pic/guardian.png">
+</a> </div>
+            <ul class="menuul">
+  <li><p class="meutx">賽夫(Save)星球是以拯救銀河系中瀕危的行星為己任的星球，其星球上的生命體外型皆類似於地球上的魚類。Nisi則是賽夫星球中一位新秀領航員，從小就接受賽夫星球的訓練，而在他學業有成後，接到的第一個任務便是拯救因為長期遭受環境汙染及人為破壞所面臨毀壞的地球！
+但是當Nisi前往地球時(5991A.D.)卻發現為時已晚，地球早已因為環境問題破壞殆盡；於是Nisi決定乘坐賽夫星球的時光機重返2020年的地球，在這個還能挽回一切的年代著手拯救地球免於未來的危機。
+</p></li>
+            </ul>
+        </div>
+      </div>
+   </div>
+
+   <div class="scroll-downs">
+  <div class="mousey">
+    <div class="scroller"></div>
+  </div>
+</div>
+
+ </header>
+ <div class="h1200"></div>
+   <script>
+   var bodyClass = document.body.classList,
+      lastScrollY = 0;
+   window.addEventListener('scroll', function() {
+      var st = this.scrollY;
+      // 判斷是向上捲動，而且捲軸超過 200px
+      if (st < lastScrollY) {
+         bodyClass.remove('hideUp');
+      } else {
+         bodyClass.add('hideUp');
+      }
+      lastScrollY = st;
+   });
+   </script>
+           <script src="js/jquery-2.1.3.min.js"></script>
+                                        <script src="js/idangerous.swiper.min.js"></script>
+                                        <script src="js/global.js"></script>
+</body>
+
+</html>

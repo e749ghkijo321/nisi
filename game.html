@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html id="gameht">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+   <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900' rel='stylesheet' type='text/css' />
+   <link href="css/style1.css" rel="stylesheet" type="text/css" />
+   <!--[if IE 9]>
+        <link href="css/ie9.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+   <link rel="shortcut icon" href=" pic/logo.ico" />
+   <title>NISI</title>
+</head>
+
+<body id="game" class="style-5 style-7 game">
+     <div id="loader-wrapper">
+        <img src="pic/plane.svg" class="loadpic">
+        <div class="loadtv">
+            <img src="pic/loadback.svg">
+</div>
+        </div>
+   <header>  
+     <div class="content-push">
+      <div class="row">
+         <div class="col-md-12 col-xs-12 ">
+          <div class="menulogo">
+    <a href="index.html">
+<img src="pic/menulogo.png">
+<img src="pic/guardian.png">
+</a> </div>
+            <ul class="menuul">
+               <li><a class="pic1" href="page.html"><img class="picpla1" src="pic/page1.png"><img class="picno1" src="pic/page1s.png"></a></li>
+               <li><a class="pic2" href="page1.html"><img class="picpla2" src="pic/page2.png"><img class="picno2" src="pic/page2s.png"></a></li>
+               <li><a class="pic3" href="page2.html"><img class="picpla3" src="pic/page3.png"><img class="picno3" src="pic/page3s.png"></a></li>
+            </ul>
+        </div>
+      </div>
+   </div>
+
+   <div class="scroll-downs">
+  <div class="mousey">
+    <div class="scroller"></div>
+  </div>
+</div>
+
+ </header>
+ <div class="h1200"></div>
+   <script>
+   var bodyClass = document.body.classList,
+      lastScrollY = 0;
+   window.addEventListener('scroll', function() {
+      var st = this.scrollY;
+      // 判斷是向上捲動，而且捲軸超過 200px
+      if (st < lastScrollY) {
+         bodyClass.remove('hideUp');
+      } else {
+         bodyClass.add('hideUp');
+      }
+      lastScrollY = st;
+   });
+   </script>
+           <script src="js/jquery-2.1.3.min.js"></script>
+                                        <script src="js/idangerous.swiper.min.js"></script>
+                                        <script src="js/global.js"></script>
+</body>
+
+</html>
